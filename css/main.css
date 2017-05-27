@@ -1,8 +1,15 @@
 body {
+/*
     margin: 60px auto;
     width: 70%;
+*/
     background-color: rgb(41,41,41);
     color: #fff;
+}
+.content {
+    padding: 10px;
+    max-width: 1200px;
+    margin: auto;
 }
 nav ul, footer ul {
     font-family:'Chivo', 'Arial', 'Sans-Serif';
