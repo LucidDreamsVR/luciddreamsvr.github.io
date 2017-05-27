@@ -9,13 +9,13 @@ body {
     margin: auto;
 }
 
-.icon-bar {
+nav .icon-bar {
     width: 100%;
     background-color: rgb(41,41,41);
     overflow: auto;
 }
 
-.icon-bar a {
+nav .icon-bar a {
     float: right;
     width: 20%;
     text-align: center;
@@ -27,7 +27,7 @@ body {
     */
 }
 
-.icon-bar a:hover {
+nav .icon-bar a:hover {
     background-color: #000;
 }
 
