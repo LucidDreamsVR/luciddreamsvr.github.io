@@ -9,13 +9,13 @@ body {
     margin: auto;
 }
 
-nav.icon-bar {
+.icon-bar {
     width: 100%;
     background-color: rgb(41,41,41);
     overflow: auto;
 }
 
-nav.icon-bar a {
+.icon-bar a {
     float: right;
     width: 20%;
     text-align: center;
@@ -27,17 +27,8 @@ nav.icon-bar a {
     */
 }
 
-nav.icon-bar a:hover {
+.icon-bar a:hover {
     background-color: #000;
-}
-
-a {
-    text-decoration: none;
-    color: #999;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 h1 {
@@ -75,6 +66,15 @@ footer ul {
 footer ul li {
     display: inline;
     margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #999;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 ul.posts { 
