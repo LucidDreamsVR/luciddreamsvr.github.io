@@ -15,7 +15,7 @@ nav .icon-bar {
     overflow: auto;
 }
 
-nav .icon-bar a {
+nav .icon-bar .icon {
     float: right;
     width: 20%;
     text-align: center;
@@ -23,7 +23,7 @@ nav .icon-bar a {
     transition: all 0.3s ease;
 }
 
-nav .icon-bar a:hover {
+nav .icon-bar .icon a:hover {
     background-color: #000;
 }
 
