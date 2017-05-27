@@ -1,55 +1,80 @@
 body {
-/*
-    margin: 60px auto;
-    width: 70%;
-*/
     background-color: rgb(41,41,41);
     color: #fff;
 }
+
 .content {
     padding: 10px;
     max-width: 1200px;
     margin: auto;
 }
-nav ul, footer ul {
-    font-family:'Chivo', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+nav.icon-bar {
+    width: 100%;
+    background-color: rgb(41,41,41);
+    overflow: auto;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+
+nav.icon-bar a {
+    float: right;
+    width: 20%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    /*
+    color: white;
+    font-size: 36px;
+    */
 }
-nav ul li a img {
-    width: 10%;
+
+nav.icon-bar a:hover {
+    background-color: #000;
 }
+
 a {
     text-decoration: none;
     color: #999;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 h1 {
     font-size: 3em;
     font-family:'Chivo', 'Arial', 'Sans-Serif';
 }
+
 p {
     font-size: 1.5em;
     line-height: 1.4em;
 }
+
 div.project {
     margin 5% 0px;
 }
+
 div.project img {
     width: 100%;
     display: block;
     margin: auto;
 }
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+}
+
+footer ul {
+    font-family:'Chivo', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 20px;
 }
 
 ul.posts { 
