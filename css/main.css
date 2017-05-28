@@ -19,7 +19,7 @@ header .icon-bar {
     height:6em;
 }
 
-.company-name {
+header .company-name {
     font-family: 'Chivo';
     font-weight: bold;
     font-size: 3.5em;
@@ -29,28 +29,28 @@ header .icon-bar {
     height:3em;
 }
 
-.icons {
+header .icons {
     display: -webkit-flex;
     display: flex;
     float: right;
 }
 
-.icons a {
+header .icons a {
     width: 50%;
     color: white;
 }
 
-.icons a:hover {
+header .icons a:hover {
     background-color: black;
 }
 
-.icon {
+header .icon {
     width: 100%;
     text-align: center;
     transition: all 0.3s ease;
 }
 
-.icon img {
+header .icon img {
     height: 4em;
     margin: 1em;
 }
@@ -113,6 +113,10 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+footer .icons {
+    display: none;
 }
 
 /* --- Footer END --- */
