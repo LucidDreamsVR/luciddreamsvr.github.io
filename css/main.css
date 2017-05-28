@@ -5,6 +5,7 @@ body {
     max-width: 1200px;
     margin: auto;
     width: 90%;
+    font-family:'Chivo';
 }
 
 /* --- Nav START --- */
@@ -35,12 +36,12 @@ header .icon-bar {
 }
 
 .icons a {
-    width: 100%;
+    width: 50%;
     color: white;
 }
 
 .icons a:hover {
-    background-color: #000;
+    background-color: black;
 }
 
 .icon {
@@ -65,31 +66,32 @@ header .icon-bar {
     text-decoration: underline;
 }
 
-h1 {
-    font-size: 3em;
-    font-family:'Chivo', 'Arial', 'Sans-Serif';
-}
-
-p {
+.blurb {
+    font-family:'Chivo';
     font-size: 1.5em;
     line-height: 1.4em;
+    padding: 2% 0 4% 0;
 }
 
-div.project {
+.project {
     margin 5% 0px;
 }
 
-div.project img {
+.project img {
     width: 100%;
     display: block;
     margin: auto;
+}
+
+.project p {
+    font-size: 1.4em;
 }
 
 /* --- Footer START --- */
 
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 1.3em;
 }
 
 footer ul {
