@@ -1,6 +1,6 @@
 body {
     background-color: rgb(41,41,41);
-    color: #fff;
+    color: white;
 }
 
 .content {
@@ -9,6 +9,53 @@ body {
     margin: auto;
 }
 
+/* --- Nav START --- */
+nav .icon-bar {
+	position:relative;
+    width:100%;
+    height:6em;
+    overflow: auto;
+}
+
+.company-name {
+	font-family: 'Chivo';
+    font-weight: bold;
+    font-size: 3.5em;
+	margin: 0 2%;
+
+	position:absolute;
+    top:50%;
+    margin-top:-0.5em;
+    height:3em;
+}
+
+.icons {
+    display: -webkit-flex;
+    display: flex;
+    width: 30%;
+    float: right;
+}
+
+.icons a {
+    width: 100%;
+    color: white;
+}
+
+.icons a:hover {
+    background-color: #000;
+}
+
+.icon {
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.icon img {
+	height: 4em;
+    margin: 1em;
+}
+/* OLD
 nav .icon-bar {
     width: 100%;
     background-color: rgb(41,41,41);
@@ -30,6 +77,9 @@ nav .icon-bar .icon img {
 nav .icon-bar .icon:hover {
     background-color: #000;
 }
+*/
+
+/* --- Nav END --- */
 
 h1 {
     font-size: 3em;
@@ -51,6 +101,7 @@ div.project img {
     margin: auto;
 }
 
+/* --- Footer START --- */
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
@@ -76,6 +127,8 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* --- Footer END --- */
 
 ul.posts { 
     margin: 20px auto 40px; 
