@@ -129,3 +129,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+
+@media screen and (max-width: 1000px) {
+    header .icons { display: none; }
+    footer ul { display: none; }
+    footer .icons { display: block; }
+}
