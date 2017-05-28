@@ -1,29 +1,25 @@
 body {
     background-color: rgb(41,41,41);
     color: white;
-}
-
-.content {
     padding: 10px;
     max-width: 1200px;
     margin: auto;
+    width: 90%;
 }
 
 /* --- Nav START --- */
 nav .icon-bar {
-	position:relative;
+    position:relative;
     width:100%;
     height:6em;
     overflow: auto;
 }
 
 .company-name {
-	font-family: 'Chivo';
+    font-family: 'Chivo';
     font-weight: bold;
     font-size: 3.5em;
-	margin: 0 2%;
-
-	position:absolute;
+    position:absolute;
     top:50%;
     margin-top:-0.5em;
     height:3em;
@@ -32,7 +28,6 @@ nav .icon-bar {
 .icons {
     display: -webkit-flex;
     display: flex;
-    width: 30%;
     float: right;
 }
 
@@ -55,31 +50,17 @@ nav .icon-bar {
 	height: 4em;
     margin: 1em;
 }
-/* OLD
-nav .icon-bar {
-    width: 100%;
-    background-color: rgb(41,41,41);
-    overflow: auto;
-}
-
-nav .icon-bar .icon {
-    float: right;
-    width: 10%;
-    text-align: center;
-    padding: 0 1%;
-    transition: all 0.3s ease;
-}
-
-nav .icon-bar .icon img {
-    width: 100%
-}
-
-nav .icon-bar .icon:hover {
-    background-color: #000;
-}
-*/
 
 /* --- Nav END --- */
+
+.container a {
+    text-decoration: none;
+    color: #999;
+}
+
+.container a:hover {
+    text-decoration: underline;
+}
 
 h1 {
     font-size: 3em;
