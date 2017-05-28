@@ -132,6 +132,10 @@ ul.posts li {
 
 /* ===== RESPONSIVE ADJUSTMENTS ===== */
 
+@media screen and (min-width: 1001px) {
+    footer .icons { display: none; }
+}
+
 @media screen and (max-width: 1000px) {
     header .icons { display: none; }
     footer ul { display: none; }
