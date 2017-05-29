@@ -91,16 +91,16 @@ header .icon img {
     margin: auto;
 }
 
-.project-detail p {
+.project-details p {
     font-size: 1.3em;
 }
 
-.project-detail a {
+.project-details a {
     text-decoration: none;
     color: #999;
 }
 
-.project-detail a:hover {
+.project-details a:hover {
     text-decoration: underline;
 }
 
