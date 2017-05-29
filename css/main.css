@@ -57,15 +57,6 @@ header .icon img {
 
 /* --- Header END --- */
 
-.container a {
-    text-decoration: none;
-    color: #999;
-}
-
-.container a:hover {
-    text-decoration: underline;
-}
-
 .blurb {
     font-family:'Chivo';
     font-size: 1.5em;
@@ -73,8 +64,25 @@ header .icon img {
     padding: 2% 0 4% 0;
 }
 
+/* --- Project START --- */
+
 .project {
     margin 5% 0px;
+}
+
+.project-title {
+    font-size: 1.4em;
+}
+
+.project-title a {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 2%;
+}
+
+.project-title img {
+    height: 1.8em;
+    width: auto;
 }
 
 .project img {
@@ -83,9 +91,20 @@ header .icon img {
     margin: auto;
 }
 
-.project p {
-    font-size: 1.4em;
+.project-detail p {
+    font-size: 1.3em;
 }
+
+.project-detail a {
+    text-decoration: none;
+    color: #999;
+}
+
+.project-detail a:hover {
+    text-decoration: underline;
+}
+
+/* --- Project END --- */
 
 /* --- Footer START --- */
 
