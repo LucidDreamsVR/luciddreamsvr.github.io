@@ -154,12 +154,14 @@ ul.posts li {
 
 @media screen and (min-width: 1001px) {
     /* Large displays */
+    .rwd-line { display: inline; }
     footer .icons { display: none; }
 }
 
 @media screen and (max-width: 1000px) {
     /* Tablet and smaller */
     header .icons { display: none; }
+    .rwd-line { display: inline; }
     footer ul { display: none; }
     footer .icons { 
         display: flex;
@@ -178,6 +180,7 @@ ul.posts li {
         font-size: 2.5em;
     }
     .project-title { font-size: 1.25em; }
+    .rwd-line { display: block; }
     footer .icon img { width: 70%; }
 }
 
